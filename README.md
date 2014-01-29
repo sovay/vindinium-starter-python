@@ -6,9 +6,11 @@ Install deps:
 
 Run with:
 
-    python client.py <key> <[training|arena]> <number-of-games-to-play> [server-url]
+    python client.py <key> <[training|arena]> <number-of-games-to-play> 
+<map> [server-url]
 
 Examples:
 
     python client.py mySecretKey arena 10
-    python client.py mySecretKey training 10 http://localhost:9000
+    python client.py mySecretKey training 10 m1 
+http://vindium.org/api/training
